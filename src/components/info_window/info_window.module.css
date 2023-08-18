@@ -1,0 +1,152 @@
+@value knitBlack, knitRed, knitBlue from '../../common/colors.css';
+
+.infoWindow {
+  position: absolute;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  z-index: 10;
+}
+
+.info_cont {
+  width: 100%;
+  height: 100%;
+  background: rgba(60, 60, 60, 0.6);
+}
+
+.close_btn {
+  position: fixed;
+  top: 0px;
+  left: -10px;
+  z-index: 12;
+  gap: 5px;
+  color: white;
+  font-size: 1.2rem;
+  background: none;
+}
+
+.close_btn:hover {
+  color: knitRed;
+  background: none;
+}
+
+.close_btn svg {
+  width: 2em;
+  height: 2em;
+}
+
+.info_menu_cont,
+.info_prev_cont,
+.info_next_cont {
+  position: fixed;
+  display: inline-block;
+  top: 5px;
+  width: 130px;
+  height: 40px;
+}
+
+.info_menu_box,
+.info_prev_box,
+.info_next_box {
+  display: inline-block;
+  height: 100%;
+  border: 5px solid white;
+  border-radius: 50px;
+}
+
+.info_menu_des,
+.info_prev_des,
+.info_next_des {
+  position: absolute;
+  top: 45px;
+  left: 0;
+}
+
+.info_menu_cont {
+  left: 170px;
+}
+
+.info_menu_box {
+  width: 140px;
+}
+
+.info_prev_cont {
+  left: 330px;
+}
+
+.info_prev_box {
+  width: 130px;
+}
+
+.info_next_cont {
+  right: 10px;
+}
+
+.info_next_box {
+  width: 130px;
+}
+
+@media (max-width: 1024px) {
+  .close_text {
+    display: none;
+  }
+
+  .info_menu_box,
+  .info_prev_box,
+  .info_next_box {
+    width: 40px;
+  }
+
+  .info_menu_cont {
+    left: -30px;
+    text-align: right;
+  }
+
+  .info_menu_des {
+    left: 40px;
+    width: 80px;
+  }
+
+  .info_prev_cont {
+    left: 120px;
+    text-align: left;
+  }
+
+  .info_prev_des {
+    left: 10px;
+  }
+
+  .info_next_cont {
+    right: 10px;
+    text-align: right;
+  }
+
+  .info_next_des {
+    right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info_menu_cont,
+  .info_prev_cont,
+  .info_next_cont {
+    top: 8px;
+  }
+
+  .info_menu_box,
+  .info_prev_box,
+  .info_next_box {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 360px) {
+  .info_next_des {
+    left: 35px;
+    width: 80px;
+  }
+}

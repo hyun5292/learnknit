@@ -5,9 +5,11 @@ import Menu from "./components/menu/menu";
 import VideoDetail from "./components/video_detail/video_detail";
 import VideoMore from "./components/video_more/video_more";
 import Error from "./components/error/error";
+import InfoWindow from "./components/info_window/info_window";
 
 function App({ stepsData, youtube }) {
   const [menu, setMenu] = useState(false);
+  const [infoWind, setInfoWind] = useState(true);
   const [nowStep, setNowStep] = useState({
     ...stepsData["코바늘"][0],
     stepKind: "코바늘",
@@ -122,6 +124,7 @@ function App({ stepsData, youtube }) {
 
   return (
     <div className={menu ? styles.app : `${styles.app} ${styles.videoWidth}`}>
+      {infoWind && <InfoWindow setInfoWind={setInfoWind} />}
       <div className={styles.header}>
         <Header
           prev={prev}
