@@ -11,6 +11,10 @@
 # production
 /build
 
+# youtube API KEY
+.env
+client_secret.json
+
 # misc
 .DS_Store
 .env.local
