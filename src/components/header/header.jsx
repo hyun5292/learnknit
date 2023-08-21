@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./header.module.css";
 import {
   AiFillCloseCircle,
-  AiFillDownCircle,
   AiFillLeftCircle,
   AiFillRightCircle,
 } from "react-icons/ai";
+import { HiMenu } from "react-icons/hi";
 
 const Header = ({ prev, next, menu, step, handleClickMenu, changeStep }) => {
   const onChangeMenu = (event) => {
@@ -42,7 +42,7 @@ const Header = ({ prev, next, menu, step, handleClickMenu, changeStep }) => {
           </button>
         ) : (
           <button className={styles.hideMenu_open} onClick={onChangeMenu}>
-            <AiFillDownCircle className={styles.icon} />
+            <HiMenu className={styles.icon} />
             <span className={styles.btnText}>메뉴 펼치기</span>
           </button>
         )}

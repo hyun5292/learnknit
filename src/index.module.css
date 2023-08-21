@@ -24,6 +24,11 @@ li {
   -webkit-padding-start: 0px;
 }
 
+.svg {
+  margin: 0;
+  padding: 0;
+}
+
 button {
   align-items: center;
   border: none;
