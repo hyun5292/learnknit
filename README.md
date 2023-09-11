@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# <p align="center">프로젝트명</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img width="30%" src="https://raw.githubusercontent.com/hyun5292/learnknit/master/public/favicon.ico" alt="프로젝트명 로고">
+</p>
 
-## Available Scripts
+## 기본 정보
 
-In the project directory, you can run:
+> - 개발 기간<br/>: 2022.11.15 ~ 2022.12.24
+>
+> - 사이트 주소<br/>https://learnknit.netlify.app/
+>
+> - 사용 언어 및 개발 환경<br/><span style="fontWeight: bold;"> <img height="15px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" alt="React 로고">
+>   React 18.2.0
+>   </span> <span style="fontWeight: bold;"><img height="15px" src="https://img.icons8.com/?size=2x&id=hsPbhkOH4FMe&format=png" alt="nodeJS 로고"> nodeJS 16.17.0</span> <span style="fontWeight: bold;"> <img height="15px" src="https://res.cloudinary.com/sudol5292/image/upload/v1694195999/vscode_rwngfk.png" alt="vsCode 로고" />
+>   Visual Studio Code
+>   </span><br/><span style="fontWeight: bold;"><img  height="15px" src="https://res.cloudinary.com/sudol5292/image/upload/v1694418400/yt_icon_rgb_n8uusn.png" alt="유튜브 로고" /> Youtube API</span>
 
-### `yarn start`
+## 프로젝트 소개
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> 뜨개질을 단계별로 수강할 수 있도록 만든 온라인 강의 사이트입니다.<br/>사촌동생이 뜨개질에 관심을 가지게 되면서<br/>효율적으로 알려주기 위해 제작하게 되었습니다.<br/>그 이후로 뜨개질을 배우고자 하는 다른 지인들에게도<br/>해당 사이트를 통해 알려주고 있습니다.
+>
+> ### 주요 기능
+>
+> - 사이트 이용 방법 안내창
+> - 단계별 이동 메뉴 및 이전, 다음 버튼
+> - 메인 영상 및 관련 영상 시청
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 스토리보드
 
-### `yarn test`
+> ### 메인 페이지
+>
+> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694419011/learnknit-storyboard/main_h7voqm.png" alt="main page storyboard">
+>
+> ### 관련 영상 보기
+>
+> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694419011/learnknit-storyboard/morevideo_pabzup.png" alt="more video storyboard">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 화면 구성
 
-### `yarn build`
+> ### 안내창
+>
+> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694420166/learnknit-storyboard/learnknit_info_wasaoa.png" alt="안내창">
+>
+> ### 메뉴 없는 메인 페이지
+>
+> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694420166/learnknit-storyboard/learnknit_rgyabh.png" alt="메뉴 없는 메인 페이지">
+>
+> ### 메뉴 있는 메인 페이지
+>
+> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694420076/learnknit-storyboard/learnknit_menu_tnyyqj.png" alt="메뉴 있는 메인 페이지">
+>
+> ### 관련 영상 보기
+>
+> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694420076/learnknit-storyboard/learnknit_morevideo_gpwlmk.png" alt="관련 영상 보기">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Architecture
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+learnknit
+├─ .git
+├─ .gitignore
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ assets
+│  ├─ favicon.ico
+│  ├─ index.html
+│  └─ _redirects
+├─ README.md
+├─ src
+│  ├─ app.jsx
+│  ├─ app.module.css
+│  ├─ common
+│  │  ├─ colors.css
+│  │  └─ sizes.css
+│  ├─ components
+│  │  ├─ error
+│  │  │  ├─ error.jsx
+│  │  │  └─ error.module.css
+│  │  ├─ header
+│  │  │  ├─ header.jsx
+│  │  │  └─ header.module.css
+│  │  ├─ info_window
+│  │  │  ├─ info_window.jsx
+│  │  │  └─ info_window.module.css
+│  │  ├─ loading
+│  │  │  ├─ loading.jsx
+│  │  │  └─ loading.module.css
+│  │  ├─ menu
+│  │  │  ├─ menu.jsx
+│  │  │  └─ menu.module.css
+│  │  ├─ video_detail
+│  │  │  ├─ video_detail.jsx
+│  │  │  └─ video_detail.module.css
+│  │  ├─ video_item
+│  │  │  ├─ video_item.jsx
+│  │  │  └─ video_item.module.css
+│  │  └─ video_more
+│  │     ├─ video_more.jsx
+│  │     └─ video_more.module.css
+│  ├─ db
+│  │  └─ stepsData.json
+│  ├─ index.js
+│  ├─ index.module.css
+│  └─ service
+│     └─ youtube.js
+└─ yarn.lock
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
