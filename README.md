@@ -10,11 +10,11 @@
 >
 > - 사이트 주소<br/>https://learnknit.netlify.app/
 >
-> - 사용 언어 및 개발 환경<br/><span style="fontWeight: bold;"> <img height="15px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" alt="React 로고">
+> - 사용 언어 및 개발 환경<br/><span style="fontWeight: bold;"> <img height="15px" src="https://github.com/hyun5292/treview/blob/main/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/logo/React.svg.png?raw=true" alt="React 로고">
 >   React 18.2.0
->   </span> <span style="fontWeight: bold;"><img height="15px" src="https://img.icons8.com/?size=2x&id=hsPbhkOH4FMe&format=png" alt="nodeJS 로고"> nodeJS 16.17.0</span> <span style="fontWeight: bold;"> <img height="15px" src="https://res.cloudinary.com/sudol5292/image/upload/v1694195999/vscode_rwngfk.png" alt="vsCode 로고" />
+>   </span> <span style="fontWeight: bold;"><img height="15px" src="https://github.com/hyun5292/treview/blob/main/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/logo/nodejs.png?raw=true" alt="nodeJS 로고"> nodeJS 16.17.0</span> <span style="fontWeight: bold;"> <img height="15px" src="https://github.com/hyun5292/treview/blob/main/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/logo/vscode.png?raw=true" alt="vsCode 로고" />
 >   Visual Studio Code
->   </span><br/><span style="fontWeight: bold;"><img  height="15px" src="https://res.cloudinary.com/sudol5292/image/upload/v1694418400/yt_icon_rgb_n8uusn.png" alt="유튜브 로고" /> Youtube API</span>
+>   </span><br/><span style="fontWeight: bold;"><img  height="15px" src="https://github.com/hyun5292/learnknit/blob/master/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/logo/youtube.png?raw=true" alt="유튜브 로고" /> Youtube API</span>
 
 ## 프로젝트 소개
 
@@ -30,29 +30,29 @@
 
 > ### 메인 페이지
 >
-> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694419011/learnknit-storyboard/main_h7voqm.png" alt="main page storyboard">
+> <img width="70%" src="https://github.com/hyun5292/learnknit/blob/master/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/main.png?raw=true" alt="main page storyboard">
 >
 > ### 관련 영상 보기
 >
-> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694419011/learnknit-storyboard/morevideo_pabzup.png" alt="more video storyboard">
+> <img width="70%" src="https://github.com/hyun5292/learnknit/blob/master/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/morevideo.png?raw=true" alt="more video storyboard">
 
 ## 화면 구성
 
 > ### 안내창
 >
-> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694420166/learnknit-storyboard/learnknit_info_wasaoa.png" alt="안내창">
+> <img width="70%" src="https://github.com/hyun5292/learnknit/blob/master/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/learnknit_info.png?raw=true" alt="안내창">
 >
 > ### 메뉴 없는 메인 페이지
 >
-> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694420166/learnknit-storyboard/learnknit_rgyabh.png" alt="메뉴 없는 메인 페이지">
+> <img width="70%" src="https://github.com/hyun5292/learnknit/blob/master/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/learnknit.png?raw=true" alt="메뉴 없는 메인 페이지">
 >
 > ### 메뉴 있는 메인 페이지
 >
-> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694420076/learnknit-storyboard/learnknit_menu_tnyyqj.png" alt="메뉴 있는 메인 페이지">
+> <img width="70%" src="https://github.com/hyun5292/learnknit/blob/master/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/learnknit_menu.png?raw=true" alt="메뉴 있는 메인 페이지">
 >
 > ### 관련 영상 보기
 >
-> <img width="70%" src="https://res.cloudinary.com/sudol5292/image/upload/v1694420076/learnknit-storyboard/learnknit_morevideo_gpwlmk.png" alt="관련 영상 보기">
+> <img width="70%" src="https://github.com/hyun5292/learnknit/blob/master/public/assets/%EC%99%84%EC%84%B1%EB%B3%B8/learnknit_morevideo.png?raw=true" alt="관련 영상 보기">
 
 ## Architecture
 
